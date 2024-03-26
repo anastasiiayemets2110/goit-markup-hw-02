@@ -65,12 +65,11 @@ ul {
     color: #404bbf;
 }
 
-h1 {
+.site-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 
@@ -78,14 +77,14 @@ h1 {
     background-color: #2e2f42;
 }
 
-button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.order-button {
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
 button:hover,
@@ -108,20 +107,27 @@ button:focus{
     color: #434455;
 }
 
+.team {
+    background-color: #F4F4FD;
+}
+
 .section-name {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.photo {
+    background-color: #FFFFFF;
 }
 
 .person-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -131,7 +137,6 @@ button:focus{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 
@@ -151,7 +156,7 @@ button:focus{
     color: #434455;
 }
 
-footer {
+.bottom {
     background-color: #2e2f42;;
 }
 .conclusion {
